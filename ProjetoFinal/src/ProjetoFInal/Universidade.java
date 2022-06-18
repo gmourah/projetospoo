@@ -3,12 +3,14 @@ package ProjetoFInal;
 public class Universidade {
 
 	public String nome;
-	public String endereço;
+	public String cidade;
+	public String estado;
 	
 	 //Métodos Especiais
-    public Universidade(String nome, String endereço) {
+    public Universidade(String nome, String cidade, String estado) {
         this.nome = nome;
-        this.endereço = endereço;
+        this.cidade = cidade;
+        this.estado = estado;
     }
 
     public String getNome() {
@@ -19,12 +21,19 @@ public class Universidade {
         this.nome = nome;
     }
 
-    public String getEndereço() {
-        return endereço;
+    public String getCidade() {
+        return cidade;
     }
 
-    public void setEndereço(String endereço) {
-        this.endereço = endereço;
+    public void setCidade(String c) {
+        this.cidade = c;
+    }
+    public String getEstado() {
+        return estado;
+    }
+
+    public void setEstado(String e) {
+        this.estado = e;
     }
     
 }

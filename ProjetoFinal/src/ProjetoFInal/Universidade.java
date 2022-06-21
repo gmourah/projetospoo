@@ -2,23 +2,23 @@ package ProjetoFInal;
 
 public class Universidade {
 
-	public String nome;
+	public String unome;
 	public String cidade;
 	public String estado;
 	
-	 //Métodos Especiais
+	 //construtor
     public Universidade(String nome, String cidade, String estado) {
-        this.nome = nome;
+        this.unome = nome;
         this.cidade = cidade;
         this.estado = estado;
     }
 
-    public String getNome() {
-        return nome;
+    public String getUNome() {
+        return unome;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setUNome(String nome) {
+        this.unome = nome;
     }
 
     public String getCidade() {
@@ -35,5 +35,6 @@ public class Universidade {
     public void setEstado(String e) {
         this.estado = e;
     }
+    
     
 }
